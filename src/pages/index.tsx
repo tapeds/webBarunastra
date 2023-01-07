@@ -8,7 +8,6 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 import Image from 'next/image'
 import Navbar from '@/components/navbar';
-import Bootstrap from '@/components/Bootstrap';
 import Footer from '@/components/Footer';
 import Start from '@/components/Start';
 /**
@@ -30,7 +29,12 @@ export default function HomePage() {
       <Navbar />
       <Start />
       <Page2 />
-        
+      <div className='h-[30rem] bg-black'>
+        <h1 className='flex h-[30rem] justify-start items-center text-white ml-40 tracking-widest'>OUR DIVISION</h1>
+      </div>
+      <div className='h-[30rem] bg-black'>
+        <h1 className='flex h-[30rem] justify-start items-center text-white ml-40 tracking-widest'>ACHIEVEMENT</h1>
+      </div>
       <Footer />
     </div>
   );
