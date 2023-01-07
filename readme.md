@@ -1,1 +1,1 @@
-https://tapeds@github.io/webBarunastra/
+https://tapeds.github.io/webBarunastra/
