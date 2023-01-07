@@ -7,7 +7,7 @@ import UnderlineLink from '@/components/links/UnderlineLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 import Image from 'next/image'
-import Navbar from '@/components/navbar';
+import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Start from '@/components/Start';
 import Divisionpage from '@/components/Divisionpage';
