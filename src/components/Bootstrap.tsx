@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Bootstrap = () => {
   return (
-    <Carousel>
+    <Carousel showThumbs={false}>
       <div className='text-left ml-20 tracking-widest'>
         <h1 className='mb-10 my-20 text-[50px]'>INAMARINE 2022</h1>
         <p className='mb-10 text-[20px]'>

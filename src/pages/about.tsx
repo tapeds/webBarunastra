@@ -6,7 +6,7 @@ const about = () => {
   return(
     <div>
       <Navbar />
-      <div className="flex justify-center h-screen gap-20 items-center">
+      <div className="flex justify-center h-screen gap-20 items-center bg-[url('/background1.jpg')] bg-cover text-white">
         <div>
           <h1 className="p-32 bg-gray-300 bg-opacity-25 rounded-3xl text-[60px]">Profile</h1>
         </div>
@@ -27,7 +27,11 @@ const about = () => {
           </p>
         </div>
       </div>
-      <Link href='/' className='border rounded-full border-black p-2 mb-5 ml-5'>&lt;</Link>
+      <div className="fixed left-4 bottom-4">
+        <Link href='/' className='ml-15 border rounded-full text-white border-white 
+        px-2 py-1 bg-gray-400 bg-opacity-40 border-2'>&lt;</Link>
+      </div>
+
     </div>
   )
 }

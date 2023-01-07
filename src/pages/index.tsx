@@ -10,6 +10,7 @@ import Image from 'next/image'
 import Navbar from '@/components/navbar';
 import Footer from '@/components/Footer';
 import Start from '@/components/Start';
+import Divisionpage from '@/components/Divisionpage';
 /**
  * SVGR Support
  * Caveat: No React Props Type.
@@ -19,6 +20,8 @@ import Start from '@/components/Start';
  */
 import Vercel from '~/svg/Vercel.svg';
 import Page2 from '@/components/Page2';
+import Achievementpage from '@/components/Achievementpage';
+import Quote from '@/components/Quote';
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
@@ -32,9 +35,12 @@ export default function HomePage() {
       <div className='h-[30rem] bg-black'>
         <h1 className='flex h-[30rem] justify-start items-center text-white ml-40 tracking-widest'>OUR DIVISION</h1>
       </div>
+      <Divisionpage />
       <div className='h-[30rem] bg-black'>
         <h1 className='flex h-[30rem] justify-start items-center text-white ml-40 tracking-widest'>ACHIEVEMENT</h1>
       </div>
+      <Achievementpage />
+      <Quote />
       <Footer />
     </div>
   );

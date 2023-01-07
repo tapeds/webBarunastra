@@ -1,16 +1,21 @@
-import Image
- from "next/image";
+import Image from "next/image";
 const Footer = () => {
   return(
     <div className="h-screen flex items-center justify-start p-10 bg-gradient-to-br from-[#5f5878] to-[#12121c] text-white gap-52">
       <div className="p-10">
-        <div>
-          {/* <Image 
-            src="/public/images/logoITS.png"
-            alt="logo its"
-            width={500}
-            height={500}
-          /> */}
+        <div className="relative">
+          <Image 
+            src="/logoITS.png"
+            alt="logoits"
+            width={300}
+            height={300}
+          />
+          <Image 
+            src="/logo.png"
+            alt="logo"
+            width={100}
+            height={100}
+          />
         </div>
         <p>
           ©2022 Barunastra ITS <br />
