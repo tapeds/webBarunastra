@@ -2,6 +2,7 @@
 const nextConfig = {
   eslint: {
     dirs: ['src'],
+    basePath: '/public',
   },
 
   reactStrictMode: true,
