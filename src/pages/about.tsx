@@ -1,5 +1,6 @@
-import React from "react";
 import Link from "next/link";
+import React from "react";
+
 import Navbar from "@/components/Navbar";
 
 const about = () => {
@@ -29,7 +30,7 @@ const about = () => {
       </div>
       <div className="fixed left-4 bottom-4">
         <Link href='/' className='ml-15 border rounded-full text-white border-white 
-        px-2 py-1 bg-gray-400 bg-opacity-40 border-2'>&lt;</Link>
+        px-2 py-1 bg-gray-400 bg-opacity-40'>&lt;</Link>
       </div>
 
     </div>

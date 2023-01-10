@@ -1,4 +1,3 @@
-import Button from "@/components/buttons/Button"
 import { Carousel } from "react-responsive-carousel"
 
 const Divisionpage = () => {
